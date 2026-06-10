@@ -1,0 +1,9 @@
+﻿ProductKey,ProductName,MediaChannel,ProductGroup,BaseCostRatio,ListPricePerDay,PremiumIndex
+P001,City-Light-Poster,OOH Analog,Street Furniture,0.4200,145.00,1.0000
+P002,Grossflaeche,OOH Analog,Billboard,0.4500,210.00,1.0700
+P003,Mega-Light,OOH Analog,Premium Billboard,0.3900,310.00,1.1800
+P004,Public Video,Digital OOH,Digital Screen,0.3400,380.00,1.3200
+P005,Roadside Screen,Digital OOH,Digital Network,0.3300,420.00,1.3800
+P006,Online Display Extension,Digital Media,Programmatic,0.2800,95.00,0.9200
+P007,Dialog Media Lead Package,Dialog Media,Performance,0.3100,125.00,0.9600
+P008,OOH Plus Crossmedia Bundle,Crossmedia,Bundle,0.3600,560.00,1.4800

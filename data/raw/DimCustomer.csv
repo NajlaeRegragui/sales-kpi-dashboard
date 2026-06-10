@@ -1,0 +1,31 @@
+﻿CustomerKey,CustomerName,Industry,CustomerSegment,HQCity,StrategicAccount,IndustryDemandIndex
+C001,RheinMarkt AG,Finance,Enterprise,Hamburg,True,1.0000
+C002,Nova Mobility GmbH,FMCG,Mid Market,Duesseldorf,False,1.1500
+C003,BlueWave Telecom,Public Sector,Enterprise,Berlin,True,0.8500
+C004,UrbanSnack GmbH,Finance,Mid Market,Duesseldorf,False,1.0000
+C005,MediCare Plus,Automotive,Mid Market,Koeln,False,1.2000
+C006,Finova Bank,Finance,Mid Market,Hamburg,False,1.0000
+C007,SunTrip Travel,Entertainment,Mid Market,Muenchen,False,1.0800
+C008,City Events Group,Travel,SMB,Hamburg,False,0.9500
+C009,EcoDrive Deutschland,Automotive,Mid Market,Duesseldorf,False,1.2000
+C010,Koeln Retail Union,FMCG,SMB,Berlin,False,1.1500
+C011,MetroStyle Fashion,Retail,Enterprise,Koeln,False,1.1000
+C012,FoodHero GmbH,Travel,SMB,Koeln,False,0.9500
+C013,NorthAir Logistics,Travel,Mid Market,Hamburg,False,0.9500
+C014,Spark Mobile,FMCG,Mid Market,Frankfurt,False,1.1500
+C015,Public Health NRW,Retail,Enterprise,Muenchen,True,1.1000
+C016,Berg & Partner Insurance,Public Sector,SMB,Muenchen,False,0.8500
+C017,GamePlanet Media,Public Sector,SMB,Hamburg,False,0.8500
+C018,FreshHome Retail,Entertainment,Enterprise,Berlin,False,1.0800
+C019,Autohaus SternWest,Travel,Mid Market,Berlin,False,0.9500
+C020,GreenCharge Energy,Public Sector,Enterprise,Frankfurt,False,0.8500
+C021,KulturTicket GmbH,Automotive,Enterprise,Frankfurt,False,1.2000
+C022,FitLife Studios,FMCG,Enterprise,Muenchen,True,1.1500
+C023,BauPlus Gruppe,FMCG,SMB,Frankfurt,False,1.1500
+C024,EduCampus Digital,Telecom,Enterprise,Berlin,True,1.0500
+C025,QuickServe Restaurants,Finance,Mid Market,Frankfurt,False,1.0000
+C026,Premium Watches DE,Telecom,SMB,Frankfurt,False,1.0500
+C027,CinemaWave,Telecom,Mid Market,Duesseldorf,False,1.0500
+C028,CloudWorks B2B,Entertainment,Mid Market,Hamburg,False,1.0800
+C029,LocalGov Services,Entertainment,SMB,Duesseldorf,False,1.0800
+C030,ShopSphere Online,Telecom,Enterprise,Duesseldorf,True,1.0500

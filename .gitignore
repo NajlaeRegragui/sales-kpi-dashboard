@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Power BI temporary files
+*.pbitmp
+*.tmp
+~$*.pbix
+*.bak
+powerbi/powerbi_buis.pbix
+
+# Root copy is kept locally because it was the active Desktop file.
+/powerbi_buis.pbix
+
+# Extra working mockup/docs kept locally; GitHub uses the canonical files.
+/docs/dashboard_mockup.png
+/docs/kpi_dashboard_mockup.html
+/docs/github_portfolio_checklist.md
+/docs/powerbi_dashboard_build_guide.md
+/docs/project_brief.md
+/docs/setup_on_another_laptop.md
+/insights/interview_insights.md
+
+# Local exports and caches
+exports/
+temp/
+tmp/
+.cache/
+
+# Keep portfolio deliverables
+!powerbi/sales_dashboard.pbix
+!powerbi/screenshots/dashboard_mockup.png

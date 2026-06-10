@@ -1,0 +1,13 @@
+﻿SalesRepKey,SalesRepName,RegionKey,Team,Seniority,HireDate
+S001,Anna Keller,R01,Key Account,Senior,2022-06-18
+S002,Jonas Weber,R02,Direct Sales,Junior,2019-10-14
+S003,Mira Schmitt,R03,Agency Sales,Senior,2019-02-25
+S004,David Klein,R04,Digital Sales,Junior,2022-08-03
+S005,Lea Fischer,R05,Key Account,Junior,2021-04-16
+S006,Nico Wagner,R06,Agency Sales,Senior,2023-05-07
+S007,Sofia Hartmann,R01,Digital Sales,Professional,2019-07-02
+S008,Felix Braun,R02,Direct Sales,Senior,2022-06-13
+S009,Nora Becker,R03,Key Account,Junior,2021-10-08
+S010,Tim Hoffmann,R04,Agency Sales,Junior,2020-08-29
+S011,Amira Yilmaz,R05,Direct Sales,Professional,2019-04-04
+S012,Lukas Neumann,R06,Direct Sales,Senior,2021-04-01
