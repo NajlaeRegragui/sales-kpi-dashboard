@@ -1,14 +1,16 @@
-# Sales KPI Analysis - Power BI Portfolio Project
+# Sales KPI Dashboard - Power BI Portfolio Project
 
 ![Sales KPI Dashboard](powerbi/screenshots/dashboard_mockup.png)
 
-## Project Overview
+## Overview
 
-This project is a realistic **Sales Data Analyst / Power BI portfolio project**.
+This is a Sales Data Analyst portfolio project built in Power BI.
 
-It simulates a sales and media business scenario with campaign sales, CRM pipeline, planning, forecast, targets and media channel performance.
+I created this project to practice the kind of work a data analyst would do in a sales environment: cleaning data, building a data model, creating DAX measures and turning the numbers into a dashboard that can support business decisions.
 
-The goal is to show the full analytics workflow:
+The dataset is synthetic, but it is designed to feel realistic. It includes sales campaigns, customers, products, regions, sales representatives, targets, forecasts and CRM pipeline data.
+
+The project covers the full workflow:
 
 - raw and cleaned CSV data
 - Python data preparation
@@ -16,16 +18,16 @@ The goal is to show the full analytics workflow:
 - Power BI semantic model
 - DAX KPI measures
 - dashboard screenshot
-- business insights for interview discussion
+- business insights that can be explained in an interview
 
 ## Business Questions
 
-- Which regions generate the most revenue?
-- How does actual revenue perform against plan and forecast?
-- Which media channels drive digital sales growth?
-- How healthy is the sales pipeline?
-- Where are data quality issues affecting CRM and sales reporting?
-- Which KPIs should management use for commercial steering?
+- Which regions are generating the most revenue?
+- How is actual revenue performing against plan and forecast?
+- Which media channels are contributing most to sales?
+- How strong is the current sales pipeline?
+- Where do data quality issues appear in the sales process?
+- Which KPIs would help management understand performance quickly?
 
 ## Main KPIs
 
@@ -95,13 +97,13 @@ sales-kpi-analysis/
 
 ## Power BI File
 
-Open:
+The main Power BI file is:
 
 ```text
 powerbi/sales_dashboard.pbix
 ```
 
-The Power BI model uses a star schema with:
+The model is built as a star schema. It includes these main tables:
 
 - `FactSales`
 - `FactPipeline`
@@ -117,22 +119,22 @@ The Power BI model uses a star schema with:
 
 ## How to Reproduce the Data
 
-Run:
+To regenerate the synthetic data, run:
 
 ```bash
 python scripts/clean_sales_data.py
 ```
 
-This regenerates the synthetic sales dataset and creates:
+This creates the main raw and cleaned CSV files:
 
 - `data/raw/sales_data_raw.csv`
 - `data/cleaned/sales_data_cleaned.csv`
 
-The detailed star-schema CSVs are also kept in `data/raw` and `data/cleaned` for Power BI modeling.
+The detailed star-schema CSV files are also kept in `data/raw` and `data/cleaned` so the Power BI model can be rebuilt or reviewed.
 
 ## Dashboard Preview
 
-The dashboard focuses on executive sales performance:
+The dashboard is designed as an executive sales overview. It focuses on:
 
 - KPI cards
 - Actual vs Plan trend
@@ -144,6 +146,4 @@ The dashboard focuses on executive sales performance:
 
 ## Data Privacy
 
-All data is synthetic and created for portfolio and interview purposes. No real customer, company or personal data is included.
-
-This is an independent portfolio project based entirely on synthetic data.
+All data in this project is synthetic. It was created only for portfolio and learning purposes, and it does not include real customer, company or personal data.
