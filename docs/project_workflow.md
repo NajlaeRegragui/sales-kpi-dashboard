@@ -2,11 +2,9 @@
 
 ## 1. Job-Ad Analysis
 
-The project is inspired by a public job posting for a Sales Data Analyst role at Ströer Media Deutschland GmbH.
+The project translates a realistic sales analytics scenario into a BI use case for a Sales Data Analyst supporting Sales, Management, Controlling, IT and Sales Operations.
 
-The role was translated into a realistic BI use case for a Sales Data Analyst supporting Sales, Management, Controlling, IT and Sales Operations.
-
-All data is synthetic and the project is not affiliated with Ströer.
+All data is synthetic and the project is company-neutral.
 
 ## 2. Business Questions
 
@@ -14,7 +12,7 @@ The project focuses on revenue steering, margin analysis, planning variance, for
 
 ## 3. Data Generation
 
-Synthetic data is generated with `scripts/generate_stroeer_sales_data.py`.
+Synthetic data is generated with `scripts/generate_sales_data.py`.
 
 The generated data includes:
 

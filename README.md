@@ -4,9 +4,9 @@
 
 ## Project Overview
 
-This project is a realistic **Sales Data Analyst / Power BI portfolio project** inspired by a public job posting for a **Sales Data Analyst role at Ströer Media Deutschland GmbH**.
+This project is a realistic **Sales Data Analyst / Power BI portfolio project**.
 
-It simulates a media sales business scenario with campaign sales, CRM pipeline, planning, forecast, targets and media channel performance.
+It simulates a sales and media business scenario with campaign sales, CRM pipeline, planning, forecast, targets and media channel performance.
 
 The goal is to show the full analytics workflow:
 
@@ -77,7 +77,7 @@ sales-kpi-analysis/
 |       `-- DimSalesRep.csv
 |-- scripts/
 |   |-- clean_sales_data.py
-|   `-- generate_stroeer_sales_data.py
+|   `-- generate_sales_data.py
 |-- sql/
 |   `-- sales_analysis_queries.sql
 |-- powerbi/
@@ -146,4 +146,4 @@ The dashboard focuses on executive sales performance:
 
 All data is synthetic and created for portfolio and interview purposes. No real customer, company or personal data is included.
 
-This is an independent portfolio project and is **not affiliated with, endorsed by or based on internal data from Ströer Media Deutschland GmbH**.
+This is an independent portfolio project based entirely on synthetic data.

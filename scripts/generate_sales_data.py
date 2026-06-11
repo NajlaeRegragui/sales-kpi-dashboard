@@ -74,7 +74,7 @@ def make_date_dim() -> list[dict]:
 
 def make_dimensions():
     regions = [
-        ("R01", "West", "Koeln", "Ströer-Allee 1", 1.12),
+        ("R01", "West", "Koeln", "Media-Allee 1", 1.12),
         ("R02", "Rhein-Ruhr", "Duesseldorf", "Königsallee", 1.08),
         ("R03", "South", "Muenchen", "Leopoldstrasse", 1.20),
         ("R04", "North", "Hamburg", "HafenCity", 1.05),

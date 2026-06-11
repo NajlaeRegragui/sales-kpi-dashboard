@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def main() -> int:
-    generator = ROOT / "scripts" / "generate_stroeer_sales_data.py"
+    generator = ROOT / "scripts" / "generate_sales_data.py"
     result = subprocess.run([sys.executable, str(generator)], cwd=ROOT)
     if result.returncode != 0:
         return result.returncode
